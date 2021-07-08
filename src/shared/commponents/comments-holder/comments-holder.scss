@@ -1,0 +1,10 @@
+@import '../../../assets/styles/all';
+
+.comments-holder{
+    padding: $content-padding;
+    background-color: $color-deep-gray;
+    margin: $content-margin;
+    border-radius: $border-radius;
+    position: relative;
+    min-height: 150px;
+}

@@ -1,0 +1,18 @@
+@import '../../../../assets/styles/all';
+
+.comment-item {
+    padding: 5px 10px;
+    margin: 10px 0;
+    background-color: $color-mid-gray;
+    border-radius: $border-radius;
+}
+
+.comment-title {
+    font-size: $font-size-xs;
+    color: $color-text-gray;
+}
+
+.comment-text {
+    font-size: $font-size-xxs;
+    color: $color-text-gray;
+}

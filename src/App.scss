@@ -1,0 +1,10 @@
+@import "./assets/styles/all";
+
+.App {
+  text-align: center;
+  margin: 0;
+  padding: $content-padding;
+  background-color: $color-deep-gray;
+  color: $color-white;
+  height: 100%;
+}

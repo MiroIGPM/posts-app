@@ -1,0 +1,57 @@
+@import '../../../../assets/styles/all';
+
+.post-item {
+    background: $color-mid-gray;
+    border-radius: $border-radius;
+    text-align: $text-left;
+    color: black;
+    padding: 5px 20px;
+    margin: 10px;
+}
+
+.post-title {
+    font-size: $font-size-sm;
+    color: $color-white;
+    margin: $gutter/2;
+}
+
+.post-user {
+    font-size: $font-size-xs;
+    color: $color-text-gray;
+    margin: $gutter/2;
+}
+
+.post-comments {
+    font-size: $font-size-xxs;
+    color: $color-text-gray;
+    margin: $gutter/2;
+    max-width: 150px;
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.link-holder {
+    width: 100%;
+    max-width: 150px;
+    margin: 0 auto;
+    $text-center: center;
+    background-color: $color-blue;
+    border-radius: $border-radius;
+}
+
+.link-holder a {
+    margin-left: auto;
+    text-decoration: none;
+    color: $color-white;
+}
+
+.link-btn {
+    padding: $btn-padding-narrow;
+    background-color: $color-blue;
+    border-radius: $border-radius;
+    transition: all 0.4s ease 0s;
+    font-size: $font-size-xxs;
+    margin: 5px auto;
+    text-align: $text-center;
+}

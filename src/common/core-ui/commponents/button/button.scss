@@ -1,0 +1,18 @@
+@import '../../../../assets/styles/all';
+
+.button {
+  margin: $btn-margin;
+  padding: $btn-padding;
+  border-radius: $border-radius;
+  background-color: $color-blue;
+  width: 100%;
+  max-width: 160px;
+  border: 0;
+  &:hover{
+    cursor: pointer;
+  }
+}
+
+.disabled {
+  background-color: #718490;
+}

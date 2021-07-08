@@ -1,0 +1,23 @@
+@import '../../../assets/styles/all';
+
+.post {
+    height: 100vh;
+}
+
+.post-title {
+    font-size: $font-size-lg;
+    color: $color-white;
+    margin: $gutter/2;
+}
+
+.post-text {
+    font-size: $font-size-sm;
+    color: $color-white;
+    margin: $gutter/2;
+}
+
+.post-user {
+    font-size: $font-size-xs;
+    color: $color-text-gray;
+    margin: $gutter/2;
+}

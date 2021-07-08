@@ -1,0 +1,31 @@
+$font-size-xxs: 1rem; 
+$font-size-xs: 1.2rem; 
+$font-size-sm: 1.4rem; 
+$font-size-md: 1.6rem; 
+$font-size-lg: 1.8rem; 
+$font-size-xl: 2.2rem; 
+$font-size-xxl: 2.4rem; 
+
+$text-left: left;
+$text-center: center;
+
+$font-weight-light: 300;
+$font-weight-regular: 400;
+$font-weight-bold: 700;
+
+$gutter: 1rem;
+
+$border-radius: 8px;
+
+$btn-padding: $gutter/2 $gutter*2;
+$btn-padding-narrow: 5px $gutter*2;
+$btn-height: 2*$gutter;
+$btn-min-width: 11rem;
+$btn-margin: $gutter/2;
+
+$input-padding: $gutter/2;
+
+$page-body-padding: $gutter*2;
+
+$content-padding: $gutter 2*$gutter;
+$content-margin: $gutter*2;
